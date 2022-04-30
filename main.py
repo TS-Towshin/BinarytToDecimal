@@ -2,10 +2,10 @@ while True:
     try:
         binary = input("Input: ")
         if "exit" in binary:
-            break
+            break #it will stop the code if 'exit' is typed
         else:
-            binary = int(binary, 2)
-            length = len(str(binary))
+            binary = int(binary, 2) #Takes only 1 and 0 as input
+            length = len(str(binary)) #checks the length of the input
             L = 0.5
             dec = 0
             while length != 0:
